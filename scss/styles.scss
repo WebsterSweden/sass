@@ -1,7 +1,22 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
+$padding: 1rem;
 
 body {
     color: $primary-color;
     font-family: $font-stack;
+}
+
+nav {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: $primary-color;
+    }
+}
+
+a {
+    display: block;
+    padding: $padding 1.5rem;
+    text-decoration: none;
 }
